@@ -53,7 +53,7 @@ export const StepForm2 = () => {
     return (
         <Theme>
             <C.Container>
-                <p>Passo 2/3</p>
+                <p>Passo 2/4</p>
                 <h1>{state.name}, qual é seu nivel de programação? </h1>
                 <p>Escolha uma das duas opções abaixo.</p>
 

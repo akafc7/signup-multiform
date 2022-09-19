@@ -4,7 +4,7 @@ import { createContext, ReactNode, useContext, useReducer} from 'react';
 type State = {
     currentStep: number,
     name: string,
-    level: 0 | 1,
+    level: number,
     email: string,
     github: string,
 }

@@ -40,6 +40,13 @@ export const Theme = ({ children }: Props) => {
                             path="/step3"
                             active={state.currentStep === 3}
                         />
+                        <SidebarItem
+                            title="Fim."
+                            description="Cadastro Finalizado"
+                            icon=""
+                            path="/step4"
+                            active={state.currentStep === 4}
+                        />
                     </C.Sidebar>
                     <C.Page>{children}</C.Page>
                 </C.Steps>

@@ -22,7 +22,7 @@ export const StepForm3 = () => {
 
     const handleNextStep = () => {
         if (state.email && state.github !== '') {
-            console.log(state);
+            console.log(state); navigate('/step4');
         } else {
             alert('Certifique-se de ter preenchido os campos corretamente.');
         }
@@ -44,7 +44,7 @@ export const StepForm3 = () => {
     return (
         <Theme>
             <C.Container>
-                <p>Passo 3/3</p>
+                <p>Passo 3/4</p>
                 <h1>Ok, {state.name}, agora precisamos do seu email.</h1>
                 <p>Preencha seu email abaixo.</p>
 
