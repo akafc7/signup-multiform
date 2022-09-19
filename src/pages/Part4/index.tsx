@@ -27,7 +27,7 @@ export const StepForm4 = () => {
 
                 <br />
                 <h3>E-mail: {state.email}</h3>
-                <h3>GitHub:  {state.github}</h3>
+                <h3>GitHub:  https://github.com/{state.github}</h3>
                 <h3>Nivel de Programação {state.level ? "Programador" : "Iniciante" }</h3>
 
                 <hr />
